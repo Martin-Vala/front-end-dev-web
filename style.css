@@ -1,6 +1,9 @@
+html {
+    font-size: 16px;
+}
 body{
     font-family: "Merriweather", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 15px 0px;
     background-color: rgb(255, 255, 255);
     background-image: url(/images/v617batch2-kul-05-technology.jpg);
@@ -29,7 +32,7 @@ header{
 }
 nav{
     float: right;
-    font-size: 40px;
+    font-size: 2.5rem;
     transform: translateY(17px);
 }
 a.anchor {
@@ -124,7 +127,7 @@ a.anchor {
 /*FOOTER*/
 footer{
     background-color: rgb(207, 239, 148);
-    font-size: 30px;
+    font-size: 1.875rem;
     border: 3px solid black;
     box-shadow: 0px -2px 5px black;
     height: 300px;
