@@ -100,12 +100,21 @@ a.anchor {
     }
     header {
         justify-content: center;
-        position: relative;
+        position: static;
     }
     h1#main-heading {
         flex-basis: 500px;
         text-align: center;
         text-decoration: underline;
+    }
+}
+@media only screen and (max-width: 500px) {
+    nav {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        margin: 5px;
     }
 }
 /*MAIN*/
