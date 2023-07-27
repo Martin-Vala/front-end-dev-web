@@ -90,7 +90,7 @@ a.anchor {
 main {
     margin: 150px 30px 30px;
 }
-/*ARTICLES*/
+/*MAIN ARTICLES*/
 .article-style{
     padding: 1px 10px;
     background-color: rgba(240, 248, 255, 0.728);
@@ -102,6 +102,9 @@ main {
 }
 .article-style h2{
     text-decoration: underline;
+}
+.arcticle-style p {
+    line-height: 1.5;
 }
 /*MIDDLE BOXES*/
 .middle-boxes-indiv{
@@ -135,9 +138,21 @@ main {
 #javascript-box:hover{
     background-color: rgb(221, 212, 33);
 }
-/*LANGUAGE ARTICLES*/
+/*MAIN LANGUAGE ARTICLES*/
 .media-solo{
     margin: 5px 15px;
+}
+/*MAIN MEADIA QUERIES*/
+@media only screen and (max-width: 1500px) {
+    main {
+        margin-top: 100px;
+    }
+    main article.article-style h2 {
+        font-size: 1.8rem;
+    }
+    main article.article-style p {
+        font-size: 1.2rem;
+    }
 }
 /*FOOTER*/
 footer{
