@@ -142,9 +142,9 @@ main {
 /*FOOTER*/
 footer{
     background-color: rgb(207, 239, 148);
-    font-size: 1.875rem;
     border: 3px solid black;
     box-shadow: 0px -2px 5px black;
+    font-size: 1.875rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -173,11 +173,27 @@ footer ul li {
 li::marker{
     color: transparent;
 }
+#img-link {
+    display: flex;
+    justify-content: center;
+}
 #map-img {
     box-sizing: border-box;
+    width: 330px;
 }
 #map-img:hover{
     opacity: 0.8;
     border: 2px solid black;
 }
-
+@media only screen and (max-width: 1500px) {
+    footer h3 {
+        font-size: 2rem;
+        margin: 15px 0;
+    }
+    footer ul {
+        font-size: 1.5rem;
+    }
+    #map-img {
+        width: 250px;
+    }
+}
