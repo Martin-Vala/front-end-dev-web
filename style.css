@@ -200,6 +200,7 @@ li::marker{
     opacity: 0.8;
     border: 2px solid black;
 }
+/* FOOTER MEDIA QUERIES */
 @media only screen and (max-width: 1500px) {
     footer h3 {
         font-size: 2rem;
@@ -210,5 +211,35 @@ li::marker{
     }
     #map-img {
         width: 250px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    footer h3 {
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+    footer ul {
+        font-size: 1rem;
+    }
+    #map-img {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    footer {
+        text-align: center;
+    }
+    footer div {
+        flex-basis: 300px;
+    }
+}
+@media only screen and (max-width: 625px) {
+    footer {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    footer div {
+        flex-basis: auto;
     }
 }
